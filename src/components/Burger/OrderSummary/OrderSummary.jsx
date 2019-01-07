@@ -4,7 +4,7 @@ import Wrapper from "./../../../hoc/Wrapper/Wrapper";
 
 class OrderSummary extends React.Component {
   componentWillUpdate() {
-    console.log("[Order Summary] WillUpdate");
+    // console.log("[Order Summary] WillUpdate");
   }
   render() {
     const ingredientSummary = Object.keys(this.props.ingredients).map(igKey => {
